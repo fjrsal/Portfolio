@@ -327,7 +327,8 @@ line-height: 1.7;
 html,
 body,
 .container {
-    background-color:#0B1120;
+    background-color: #0B1120;
+}
 
 .container-content {
     background-color: #182235;
@@ -473,4 +474,30 @@ body,
     font-size: 15px;
     letter-spacing: 1px;
     margin: 40px 0;
+}
+
+/* NAVBAR MENU */
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.li-navbar {
+    list-style: none;
+}
+
+.a-navbar {
+    display: inline-block;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 10px 4px;
+    border-bottom: 2px solid transparent;
 }
