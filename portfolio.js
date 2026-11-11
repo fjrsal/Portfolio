@@ -10,7 +10,7 @@ buttons.forEach(button => {
         const comingSoon = document.querySelector(".coming-soon");
 
 comingSoon.style.display =
-    filter === "visual" || filter === "music" ? "block" : "none";
+    filter === "design" ? "block" : "none";
 
 instagramLink.style.display =
     filter === "digital-art" ? "block" : "none";
